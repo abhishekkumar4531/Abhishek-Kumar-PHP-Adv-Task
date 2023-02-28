@@ -51,3 +51,11 @@ li{
   list-style-type: circle;
   font-size: 25px;
 }
+.li-style span a{
+  font-size: 35px;
+  color: #ff7900;
+}
+.li-style li{
+  font-size: 18px;
+  color: #4b5561;
+}

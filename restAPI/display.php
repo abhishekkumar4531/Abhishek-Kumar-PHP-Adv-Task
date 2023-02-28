@@ -33,50 +33,16 @@
 
     <div class="odd-row">
       <div class="image">
-        <a href="<?php echo $tLink[3]; ?>"><?php echo '<img src="'. $images[3] .'">'; ?></a>
+        <a href="<?php echo $tLink[5]; ?>"><?php echo '<img src="'. $images[5] .'">'; ?></a>
       </div>
       <div class="content">
         <div>
           <?php
-            echo '<a href="'. $tLink[3] .'">'. $titles[3] .'</a>';
-            echo $values[3];
+            echo '<a href="'. $tLink[5] .'">'. $titles[5] .'</a>';
+            echo $values[5];
           ?>
           <div class="explore">
-            <a href="<?php echo $tLink[3]; ?>">Explore Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="even-row">
-      <div class="content">
-        <div>
-          <?php
-            echo '<a href="'. $tLink[0] .'">'. $titles[0] .'</a>';
-            echo $values[0];
-          ?>
-          <div class="explore">
-            <a href="<?php echo $tLink[0]; ?>">Explore Now</a>
-          </div>
-        </div>
-      </div>
-      <div class="image">
-        <a href="<?php echo $tLink[0]; ?>"><?php echo '<img src="'. $images[0] .'">'; ?></a>
-      </div>
-    </div>
-
-    <div class="odd-row">
-      <div class="image">
-        <a href="<?php echo $tLink[1]; ?>"><?php echo '<img src="'. $images[1] .'">'; ?></a>
-      </div>
-      <div class="content">
-        <div>
-          <?php
-            echo '<a href="'. $tLink[1] .'">'. $titles[1] .'</a>';
-            echo $values[1];
-          ?>
-          <div class="explore">
-            <a href="<?php echo $tLink[1]; ?>">Explore Now</a>
+            <a href="<?php echo $tLink[5]; ?>">Explore Now</a>
           </div>
         </div>
       </div>
@@ -96,6 +62,74 @@
       </div>
       <div class="image">
         <a href="<?php echo $tLink[2]; ?>"><?php echo '<img src="'. $images[2] .'">'; ?></a>
+      </div>
+    </div>
+
+    <div class="odd-row">
+      <div class="image">
+        <a href="<?php echo $tLink[3]; ?>"><?php echo '<img src="'. $images[3] .'">'; ?></a>
+      </div>
+      <div class="content">
+        <div>
+          <?php
+            echo '<a href="'. $tLink[3] .'">'. $titles[3] .'</a>';
+            echo $values[3];
+          ?>
+          <div class="explore">
+            <a href="<?php echo $tLink[3]; ?>">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="even-row">
+      <div class="content">
+        <div>
+          <?php
+            echo '<a href="'. $tLink[4] .'">'. $titles[4] .'</a>';
+            echo $values[4];
+          ?>
+          <div class="explore">
+            <a href="<?php echo $tLink[4]; ?>">Explore Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <a href="<?php echo $tLink[4]; ?>"><?php echo '<img src="'. $images[4] .'">'; ?></a>
+      </div>
+    </div>
+
+    <div class="odd-row">
+      <div class="image">
+        <a href="<?php echo $tLink[1]; ?>"><?php echo '<img src="'. $images[1] .'">'; ?></a>
+      </div>
+      <div class="content">
+        <div class="li-style">
+          <?php
+            echo '<span><a href="'. $tLink[1] .'">'. $titles[1] .'</a></span>';
+            echo $values[1];
+          ?>
+          <div class="explore">
+            <a href="<?php echo $tLink[1]; ?>">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="even-row">
+      <div class="content">
+        <div class="li-style">
+          <?php
+            echo '<span><a href="'. $tLink[0] .'">'. $titles[0] .'</a></span>';
+            echo $values[0];
+          ?>
+          <div class="explore">
+            <a href="<?php echo $tLink[0]; ?>">Explore Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <a href="<?php echo $tLink[0]; ?>"><?php echo '<img src="'. $images[0] .'">'; ?></a>
       </div>
     </div>
 
